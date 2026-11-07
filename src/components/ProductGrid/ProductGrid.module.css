@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+/* Apparition décalée : chaque colonne entre un peu après la précédente (navigateurs compatibles) */
+.grid > :nth-child(3n + 2) {
+  animation-range: entry 8% entry 63%;
+}
+
+.grid > :nth-child(3n + 3) {
+  animation-range: entry 16% entry 71%;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

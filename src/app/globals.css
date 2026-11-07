@@ -1,0 +1,279 @@
+:root {
+  /* Beiges */
+  --color-bg: #fefdfa; /* presque blanc, légèrement chaud */
+  --color-bg-deep: #faf5ea;
+  --color-surface: #ffffff;
+  --color-peach: #f7eed8; /* fond doux (étapes, encarts) */
+  --color-border: #e6d5a6;
+  --color-input-bg: #fffefb;
+
+  /* Texte */
+  --color-text: #2b2014;
+  --color-main: #7a5810; /* or foncé : texte, liens, contours (contraste AA) */
+  --color-main-dark: #5c4108;
+  --color-on-gold: #1d1405;
+  --color-error: #b3261e;
+  --color-whatsapp: #1f9d55;
+
+  /* Or */
+  --gold: #c9a227;
+  --gold-gradient: linear-gradient(135deg, #f3dd93 0%, #d8b240 45%, #a67c1a 100%);
+  --surface-gradient: linear-gradient(180deg, #ffffff 0%, #fdf9ef 100%);
+  --glow: rgba(214, 174, 54, 0.18);
+
+  /* Ombres chaudes à deux couches + liseré de lumière en haut */
+  --shadow: 0 1px 2px rgba(122, 88, 16, 0.08), 0 10px 26px rgba(166, 124, 26, 0.13),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  --shadow-hover: 0 2px 4px rgba(122, 88, 16, 0.1), 0 18px 38px rgba(166, 124, 26, 0.26),
+    inset 0 1px 0 #fff;
+
+  --font-title: var(--font-playfair), Georgia, serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+
+  --radius: 16px;
+  --radius-pill: 999px;
+  --gutter: 16px;
+  --container: 1100px;
+  --ease: cubic-bezier(0.22, 0.8, 0.24, 1);
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Éclairage : halo doré en haut à gauche, reflet chaud en bas à droite, dégradé de beige */
+  background:
+    radial-gradient(900px 480px at 12% -80px, var(--glow), transparent 70%),
+    radial-gradient(700px 420px at 100% 55%, rgba(214, 174, 54, 0.08), transparent 70%),
+    linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-deep) 100%) fixed;
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  animation: fade-in 0.6s var(--ease) both;
+}
+
+main {
+  flex: 1;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-title);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.1rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+/* Filet doré sous les titres principaux, qui se déploie au chargement */
+main h1::after {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 3px;
+  margin: 14px auto 0;
+  border-radius: 3px;
+  background: var(--gold-gradient);
+  transform-origin: center;
+  animation: line-grow 0.9s var(--ease) 0.35s both;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-main);
+  outline-offset: 2px;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* Bouton principal : dégradé or, texte foncé, reflet qui passe au survol */
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 12px 22px;
+  overflow: hidden;
+  border: 1px solid #a67c1a;
+  border-radius: var(--radius-pill);
+  background: var(--gold-gradient);
+  box-shadow: 0 2px 8px rgba(166, 124, 26, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.55);
+  color: var(--color-on-gold);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: box-shadow 0.25s var(--ease), transform 0.25s var(--ease);
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 35%, rgba(255, 255, 255, 0.6) 50%, transparent 65%);
+  transform: translateX(-120%);
+  transition: transform 0.7s var(--ease);
+}
+
+.btn:hover {
+  box-shadow: 0 8px 22px rgba(166, 124, 26, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+.btn:hover::after {
+  transform: translateX(120%);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--gold);
+  box-shadow: none;
+  color: var(--color-main);
+}
+
+.btn-outline::after {
+  display: none;
+}
+
+.btn-outline:hover {
+  background: var(--color-peach);
+  box-shadow: var(--shadow);
+}
+
+.btn-whatsapp {
+  background: var(--color-whatsapp);
+  border-color: var(--color-whatsapp);
+  color: #fff;
+}
+
+.btn-whatsapp::after {
+  display: none;
+}
+
+/* Barre dorée de progression de lecture, en haut de la page (CSS pur) */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  height: 3px;
+  background: var(--gold-gradient);
+  transform: scaleX(0);
+  transform-origin: left;
+  pointer-events: none;
+}
+
+@supports (animation-timeline: scroll()) {
+  .scroll-progress {
+    animation: progress linear both;
+    animation-timeline: scroll(root);
+  }
+}
+
+@keyframes progress {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* Apparition au défilement (CSS pur, sans JavaScript) : s'applique là où le navigateur le gère,
+   sinon le contenu reste simplement visible. */
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 55%;
+  }
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(32px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes line-grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

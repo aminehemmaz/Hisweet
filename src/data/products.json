@@ -1,0 +1,1025 @@
+[
+  {
+    "id": "layer-cake-roses-rouges",
+    "category": "layer-cakes",
+    "name": "Layer cake roses rouges et perles dorées",
+    "description": "Roses rouges et perles dorées.",
+    "featured": true,
+    "images": [
+      {
+        "src": "/images/layer-cakes/roses-rouges-perles-dorees.webp",
+        "alt": "Layer cake crème surmonté de roses rouges, décoré de perles dorées et d'un chiffre doré",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-fee-papillons",
+    "category": "layer-cakes",
+    "name": "Layer cake fée et papillons",
+    "description": "Fée, papillons et dégradé rose.",
+    "featured": true,
+    "images": [
+      {
+        "src": "/images/layer-cakes/fee-papillons-violet.webp",
+        "alt": "Layer cake rose et violet décoré de grandes ailes de papillon, de champignons et d'une petite fée",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "gateau-mariage-deux-etages",
+    "category": "layer-cakes",
+    "name": "Gâteau de mariage deux étages",
+    "description": "Deux étages blancs et perlés.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/mariage-deux-etages.webp",
+        "alt": "Gâteau de mariage blanc à deux étages orné de perles, surmonté d'un topper doré Mr & Mrs",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-energies-renouvelables",
+    "category": "layer-cakes",
+    "name": "Layer cake éoliennes et panneaux solaires",
+    "description": "Éoliennes et panneaux solaires.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/energies-renouvelables.webp",
+        "alt": "Layer cake crème décoré d'éoliennes, de panneaux solaires et de soleils",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-robot",
+    "category": "layer-cakes",
+    "name": "Layer cake robot",
+    "description": "Gâteau sculpté en robot.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/robot.webp",
+        "alt": "Gâteau sculpté en forme de robot noir et gris aux grands yeux",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-ourson-rose",
+    "category": "layer-cakes",
+    "name": "Layer cake rose et oursons couronnés",
+    "description": "Oursons couronnés et papillons.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/ourson-rose-cake-pops.webp",
+        "alt": "Layer cake rose et rouge avec deux oursons couronnés, papillons dorés et message Happy Birthday doré",
+        "width": 720,
+        "height": 830
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-deux-etages-rose",
+    "category": "layer-cakes",
+    "name": "Gâteau deux étages rose et couronne dorée",
+    "description": "Rose marbré et couronne dorée.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/deux-etages-rose-couronne.webp",
+        "alt": "Gâteau rose marbré à deux étages avec une couronne dorée, un rang de perles et un message Happy Birthday",
+        "width": 960,
+        "height": 1126
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-rubans-roses",
+    "category": "layer-cakes",
+    "name": "Layer cake rubans roses et petits cœurs",
+    "description": "Rubans roses et petits cœurs.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/rubans-roses-coeurs.webp",
+        "alt": "Layer cake blanc décoré de petits cœurs roses et de rubans roses",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-coeurs-rouges",
+    "category": "layer-cakes",
+    "name": "Layer cake cœurs rouges",
+    "description": "Écailles de cœurs rouges.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/coeurs-rouges.webp",
+        "alt": "Layer cake entièrement recouvert de petits cœurs rouges en pâte à sucre",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-rouge-blanc",
+    "category": "layer-cakes",
+    "name": "Layer cake rouge et blanc",
+    "description": "Style vintage rouge et blanc.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/rouge-blanc-coeurs.webp",
+        "alt": "Layer cake blanc aux bordures de crème rouge, petits cœurs rouges et médaillon doré",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-pivoine-orange",
+    "category": "layer-cakes",
+    "name": "Layer cake pivoine orange",
+    "description": "Grande pivoine orange.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/pivoine-orange.webp",
+        "alt": "Layer cake blanc et orange orné d'une pivoine orange, d'un ruban blanc et d'un message Happy Birthday",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-blanc-couronne",
+    "category": "layer-cakes",
+    "name": "Layer cake blanc et couronne dorée",
+    "description": "Crème blanche et couronne dorée.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/blanc-couronne-doree.webp",
+        "alt": "Layer cake blanc surmonté d'une couronne dorée, avec un message Happy Birthday doré",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-chiffre-dore",
+    "category": "layer-cakes",
+    "name": "Layer cake blanc, chiffre et message dorés",
+    "description": "Chiffre et message dorés.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/creme-chiffre-dore.webp",
+        "alt": "Layer cake blanc strié avec un chiffre doré, un message Happy Birthday et des perles noires et dorées",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-chiffre-noir",
+    "category": "layer-cakes",
+    "name": "Layer cake crème, chiffre noir",
+    "description": "Grand chiffre noir.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/creme-chiffre-noir.webp",
+        "alt": "Layer cake à la crème blanche avec un grand chiffre noir sur le devant",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-code-de-la-route",
+    "category": "layer-cakes",
+    "name": "Layer cake code de la route",
+    "description": "Panneaux de signalisation.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/code-de-la-route.webp",
+        "alt": "Layer cake blanc décoré de panneaux de signalisation routière",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-diplome",
+    "category": "layer-cakes",
+    "name": "Layer cake remise de diplôme",
+    "description": "Diplômée, fleurs et toque.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/diplome-illustration.webp",
+        "alt": "Layer cake blanc orné de fleurs violettes, d'une toque de diplômé et d'une illustration de diplômée",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-fleurs-orange",
+    "category": "layer-cakes",
+    "name": "Layer cake fleurs orange et roses",
+    "description": "Dahlias orange et roses.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/fleurs-orange-roses.webp",
+        "alt": "Layer cake blanc orné de dahlias orange, d'une rose et de roses jaunes, avec un bandeau orange et rose et un message Happy Birthday doré",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/images/layer-cakes/fleurs-orange-roses-2.webp",
+        "alt": "Autre vue du layer cake aux fleurs orange et roses jaunes sur son présentoir",
+        "width": 958,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-bleu-or",
+    "category": "layer-cakes",
+    "name": "Layer cake bleu et or",
+    "description": "Bleu intense et touches dorées.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/bleu-or-happy-birthday.webp",
+        "alt": "Layer cake blanc et bleu aux touches dorées, avec un message Happy Birthday doré",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-bleu-or-spheres",
+    "category": "layer-cakes",
+    "name": "Layer cake bleu, or et sphères nacrées",
+    "description": "Bleu, or et sphères nacrées.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/bleu-or-spheres-nacrees.webp",
+        "alt": "Layer cake bleu et crème surmonté de sphères dorées et nacrées, avec un message Happy Birthday doré",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-rose-tiare",
+    "category": "layer-cakes",
+    "name": "Layer cake rose, tiare et papillons",
+    "description": "Tiare et papillons.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/rose-violet-tiare-papillons.webp",
+        "alt": "Layer cake rose orné d'une tiare, de papillons roses et violets, de bougies dorées et d'un message Happy Birthday doré",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "gateau-coeur-calendrier",
+    "category": "layer-cakes",
+    "name": "Gâteau en forme de cœur",
+    "description": "Cœur à bordure rouge et pétales.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/gateau-coeur-calendrier.webp",
+        "alt": "Gâteau en forme de cœur à la bordure rouge, posé sur une planche avec un calendrier, des pétales rouges et des bougies dorées",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-rose-noeuds-noirs",
+    "category": "layer-cakes",
+    "name": "Layer cake rose et nœuds noirs",
+    "description": "Petits cœurs et nœuds noirs.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/rose-noeuds-noirs.webp",
+        "alt": "Layer cake rose orné de petits cœurs noirs et de grands nœuds noirs, tenu à la main",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-blanc-noir",
+    "category": "layer-cakes",
+    "name": "Layer cake blanc et noir, plaque dorée",
+    "description": "Moitié blanc, moitié noir.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/blanc-noir-plaque-doree.webp",
+        "alt": "Layer cake blanc et noir avec des sphères noires et dorées, un message Happy Birthday et une plaque dorée",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-bleu-ciel",
+    "category": "layer-cakes",
+    "name": "Layer cake bleu ciel, voitures et nuages",
+    "description": "Nuages, étoiles et petites voitures.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/bleu-ciel-voitures-nuages.webp",
+        "alt": "Layer cake bleu ciel décoré de nuages, d'étoiles colorées et de petites voitures",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "gateau-diplome-noir-blanc",
+    "category": "layer-cakes",
+    "name": "Gâteau remise de diplôme noir et blanc",
+    "description": "Toque et diplôme.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/diplome-toque-noir-blanc.webp",
+        "alt": "Gâteau blanc et noir surmonté d'une toque de diplômé et d'un rouleau de diplôme, avec une calligraphie dorée",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-rose-medaillon",
+    "category": "layer-cakes",
+    "name": "Layer cake aux touches roses et médaillon doré",
+    "description": "Touches roses et médaillon doré.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/rose-medaillon-dore.webp",
+        "alt": "Layer cake blanc aux touches roses, surmonté de roses pastel et de gypsophile, avec un médaillon doré",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-alliances",
+    "category": "layer-cakes",
+    "name": "Layer cake roses rouges et alliances",
+    "description": "Roses rouges et alliances.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/alliances-roses-rouges.webp",
+        "alt": "Layer cake blanc surmonté de roses rouges et de gypsophile, avec un topper en forme d'alliances et un monogramme doré",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-boite-cadeau",
+    "category": "layer-cakes",
+    "name": "Layer cake en boîte cadeau",
+    "description": "Présenté en boîte cadeau.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/boite-transparente-ruban.webp",
+        "alt": "Layer cake blanc et doré dans une boîte transparente fermée par un ruban blanc, avec des roses rouges",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-montgolfiere",
+    "category": "layer-cakes",
+    "name": "Layer cake montgolfière et ourson",
+    "description": "Montgolfière et ourson.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/montgolfiere-ourson-rose.webp",
+        "alt": "Layer cake rose orné d'une montgolfière avec un ourson, de ballons rosés et dorés et du mot One",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-violet-papillons",
+    "category": "layer-cakes",
+    "name": "Layer cake violet et papillons",
+    "description": "Violet, papillons et perles.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/papillons-violet.webp",
+        "alt": "Layer cake violet décoré de papillons et de perles dorées, avec un message Happy Birthday doré",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-mosquee",
+    "category": "layer-cakes",
+    "name": "Layer cake mosquée noir et blanc",
+    "description": "Mosquée noir et blanc.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/mosquee-noir-blanc.webp",
+        "alt": "Layer cake blanc et noir avec une silhouette de mosquée dorée, un chapelet noir et un panneau directionnel orange",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-rose-pale-couronne",
+    "category": "layer-cakes",
+    "name": "Layer cake rose pâle, couronne et papillons",
+    "description": "Rose pâle et couronne dorée.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/rose-blanc-couronne-papillons.webp",
+        "alt": "Layer cake rose pâle avec un chiffre et une couronne dorés, des papillons et un message Happy Birthday",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-noir-or-basket",
+    "category": "layer-cakes",
+    "name": "Layer cake noir et or, thème basket",
+    "description": "Noir, or et basket.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/noir-or-basket.webp",
+        "alt": "Layer cake noir aux feuilles d'or avec un ballon de basket et des sphères dorées, servi avec des cake pops noirs",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-stethoscope",
+    "category": "layer-cakes",
+    "name": "Layer cake stéthoscope et cœur",
+    "description": "Stéthoscope et cœur.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/stethoscope-coeur.webp",
+        "alt": "Layer cake blanc texturé avec un stéthoscope, un cœur rouge et une rose bordeaux, accompagné de cake pops rouges et blancs",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-rose-pastel",
+    "category": "layer-cakes",
+    "name": "Layer cake rose pastel et papillons",
+    "description": "Rose pastel et papillons nacrés.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/papillons-rose-pastel.webp",
+        "alt": "Layer cake rose pastel décoré de papillons nacrés et de perles, avec un message Happy Birthday doré",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-rouge-roses",
+    "category": "layer-cakes",
+    "name": "Layer cake rouge, roses et papillons",
+    "description": "Rouge, roses et papillons.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/rouge-roses-papillons.webp",
+        "alt": "Layer cake rouge surmonté d'une rose blanche et d'une rose rouge, décoré de papillons dorés et de perles",
+        "width": 1024,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-coeurs-gaufres",
+    "category": "layer-cakes",
+    "name": "Layer cake blanc et cœurs gaufrés",
+    "description": "Cœurs gaufrés et roses rouges.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/blanc-coeurs-roses-rouges.webp",
+        "alt": "Layer cake blanc aux cœurs gaufrés, surmonté de roses rouges et de gypsophile, entouré de pétales",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-couple-illustre",
+    "category": "layer-cakes",
+    "name": "Layer cake rouge et blanc, couple illustré",
+    "description": "Couple illustré et cœurs.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/rouge-couple-illustre.webp",
+        "alt": "Layer cake blanc et rouge décoré d'une illustration de couple et de petits cœurs rouges",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-noeuds-satin",
+    "category": "layer-cakes",
+    "name": "Layer cake rose et nœuds de satin",
+    "description": "Rose et nœuds de satin.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/rose-noeuds-satin.webp",
+        "alt": "Layer cake rose décoré de grands nœuds de satin blancs, tenu à la main",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-mosquee-lune",
+    "category": "layer-cakes",
+    "name": "Layer cake mosquée et lune dorée",
+    "description": "Mosquée et lune dorée.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/mosquee-lune-cake-pops.webp",
+        "alt": "Layer cake décoré d'une mosquée et d'une lune dorée, avec un plateau de cake pops à nœuds noirs",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-gender-reveal",
+    "category": "layer-cakes",
+    "name": "Layer cake gender reveal",
+    "description": "Ballons roses et bleus.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/gender-reveal-ballons.webp",
+        "alt": "Layer cake blanc orné de ballons roses et bleus sur un présentoir, avec des cupcakes roses et bleus",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-copeaux-fleurs",
+    "category": "layer-cakes",
+    "name": "Layer cake blanc, copeaux et fleurs",
+    "description": "Copeaux blancs et fleurs.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/blanc-copeaux-fleurs.webp",
+        "alt": "Layer cake blanc recouvert de copeaux de chocolat blanc, avec des fleurs blanches et un message Happy Birthday doré",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-violet-degrade",
+    "category": "layer-cakes",
+    "name": "Layer cake violet dégradé",
+    "description": "Dégradé violet.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/violet-degrade-chiffres.webp",
+        "alt": "Layer cake à dégradé violet avec des chiffres en crème et un médaillon Happy Birthday, tenu à la main",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-baby-shower",
+    "category": "layer-cakes",
+    "name": "Layer cake baby shower",
+    "description": "Rose et bleu, petits chaussons.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/baby-shower-rose-bleu.webp",
+        "alt": "Layer cake moitié rose moitié bleu, surmonté de petits chaussons, avec une plaque Baby Shower",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "layer-cake-rouge-blanc-chiffres",
+    "category": "layer-cakes",
+    "name": "Layer cake rouge et blanc, chiffres en crème",
+    "description": "Effet aquarelle rouge.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/layer-cakes/rouge-blanc-chiffres.webp",
+        "alt": "Layer cake à l'effet aquarelle rouge et blanc, avec des chiffres en crème et un médaillon doré",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "piece-montee-mariage",
+    "category": "tartes",
+    "name": "Pièce montée de mariage",
+    "description": "Cinq étages blancs et gypsophile.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/tartes/piece-montee-mariage.webp",
+        "alt": "Pièce montée de mariage à cinq étages de crème blanche, drapés, gypsophile et monogramme doré",
+        "width": 700,
+        "height": 835
+      }
+    ]
+  },
+  {
+    "id": "fraisier-coeur",
+    "category": "tartes",
+    "name": "Fraisier en forme de cœur",
+    "description": "Fraises, crème et pistaches.",
+    "featured": true,
+    "images": [
+      {
+        "src": "/images/tartes/fraisier-coeur.webp",
+        "alt": "Fraisier en forme de cœur garni de fraises fraîches, de crème et de pistaches",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/images/tartes/fraisier-coeur-2.webp",
+        "alt": "Autre vue du fraisier en forme de cœur, avec ses fraises en bordure",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "gateau-plaque-fleurs",
+    "category": "tartes",
+    "name": "Gâteau plaque fleurs multicolores",
+    "description": "Fleurs en crème, à partager.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/tartes/plaque-fleurs-multicolores.webp",
+        "alt": "Gâteau rectangulaire bordé de fleurs en crème rose, bleu et violet, avec un message Happy Birthday",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "gateau-plaque-flamants",
+    "category": "tartes",
+    "name": "Gâteau plaque flamants roses",
+    "description": "Thème tropical, flamants roses.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/tartes/plaque-flamants-roses.webp",
+        "alt": "Gâteau rectangulaire rose décoré de flamants roses et de feuilles tropicales, servi avec cupcakes et cake pops",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "gateau-plaque-violet",
+    "category": "tartes",
+    "name": "Gâteau plaque violet et papillons",
+    "description": "Roses violettes et papillons.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/tartes/plaque-violette-fleurs.webp",
+        "alt": "Gâteau rectangulaire orné de roses en crème violette, de papillons et d'un chiffre doré, avec des cake pops",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "gateau-plaque-diplome",
+    "category": "tartes",
+    "name": "Gâteau plaque remise de diplôme",
+    "description": "Gâteau plaque pour un diplôme.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/gateau-plaque-diplome.webp",
+        "alt": "Gâteau rectangulaire blanc avec une toque de diplômé, un nœud noir et le mot Félicitations",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "sales-feuilletes-mini-pizzas",
+    "category": "sales-evenements",
+    "name": "Salés : feuilletés, mini-pizzas et sandwichs",
+    "description": "Feuilletés, mini-pizzas et sandwichs.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/buffet-sale-gateau.webp",
+        "alt": "Plateau de feuilletés, mini-pizzas au fromage et mini-sandwichs au thon",
+        "width": 1200,
+        "height": 581
+      }
+    ]
+  },
+  {
+    "id": "sales-mini-burgers-croissants",
+    "category": "sales-evenements",
+    "name": "Salés : mini-burgers, croissants et mini-pizzas",
+    "description": "Mini-burgers, croissants et mini-pizzas.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/sales-burgers-croissants.webp",
+        "alt": "Boîte de mini-burgers aux olives, de croissants salés et de mini-pizzas au fromage",
+        "width": 960,
+        "height": 950
+      }
+    ]
+  },
+  {
+    "id": "sales-plateau-bouchees",
+    "category": "sales-evenements",
+    "name": "Plateau de salés et bouchées",
+    "description": "Feuilletés et bouchées salées.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/sales-bouchees-plateau.webp",
+        "alt": "Plateau doré garni de feuilletés, de mini-burgers, de tartelettes salées et de petites bouchées",
+        "width": 960,
+        "height": 535
+      }
+    ]
+  },
+  {
+    "id": "sales-mini-pizzas-cornets",
+    "category": "sales-evenements",
+    "name": "Mini-burgers, mini-pizzas et cornets feuilletés",
+    "description": "Mini-burgers, mini-pizzas et cornets.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/sales-mini-pizzas-cornets.webp",
+        "alt": "Plateau miroir de mini-burgers, de mini-pizzas au fromage et de cornets feuilletés",
+        "width": 960,
+        "height": 615
+      }
+    ]
+  },
+  {
+    "id": "sales-table-bouchees",
+    "category": "sales-evenements",
+    "name": "Table de salés : croissants, tartelettes et mini-burgers",
+    "description": "Croissants, tartelettes et mini-burgers.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/sales-bouchees-table.webp",
+        "alt": "Plateau doré de croissants salés, de tartelettes à la crème et de mini-burgers aux olives",
+        "width": 960,
+        "height": 680
+      }
+    ]
+  },
+  {
+    "id": "cupcakes-cake-pops-evenement",
+    "category": "sales-evenements",
+    "name": "Cupcakes et cake pops pour vos événements",
+    "description": "Cupcakes et cake pops décorés.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/buffet-sale-cupcakes.webp",
+        "alt": "Plateaux de cupcakes à la crème décorés de perles argentées et de cake pops noirs et blancs",
+        "width": 720,
+        "height": 900
+      }
+    ]
+  },
+  {
+    "id": "cupcakes-tournesol",
+    "category": "sales-evenements",
+    "name": "Cupcakes tournesol",
+    "description": "Cupcakes au tournesol.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/cupcake-tournesol.webp",
+        "alt": "Cupcake à la crème décoré d'un tournesol jaune et d'une tablette de chocolat blanc",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "biscuits-roses-cake-pops",
+    "category": "sales-evenements",
+    "name": "Biscuits décorés et cake pops roses",
+    "description": "Biscuits décorés et cake pops.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/biscuits-roses-cake-pops.webp",
+        "alt": "Plateau de biscuits roses décorés et de cake pops roses à nœuds blancs",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "biscuits-naissance-bleus",
+    "category": "sales-evenements",
+    "name": "Biscuits décorés pour une naissance",
+    "description": "Biscuits glacés pour une naissance.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/biscuits-naissance-bleus.webp",
+        "alt": "Boîte de biscuits glacés bleus décorés en forme de bodies et de petits objets de naissance",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "biscuits-naissance-plateau",
+    "category": "sales-evenements",
+    "name": "Plateau de biscuits de naissance",
+    "description": "Biscuits bleus personnalisés.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/biscuits-naissance-plateau.webp",
+        "alt": "Plateau doré de biscuits bleus décorés pour une naissance",
+        "width": 1200,
+        "height": 866
+      }
+    ]
+  },
+  {
+    "id": "biscuits-coeur-alliance",
+    "category": "sales-evenements",
+    "name": "Biscuits cœur et alliance",
+    "description": "Biscuits cœur et alliance.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/biscuits-coeur-alliance.webp",
+        "alt": "Biscuit en forme de cœur décoré d'une rose rouge et d'une alliance, tenu à la main",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "cake-pops-foot",
+    "category": "sales-evenements",
+    "name": "Cake pops et chocolats thème football",
+    "description": "Cake pops thème football.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/cake-pops-foot.webp",
+        "alt": "Boîte de cake pops et de biscuits décorés sur le thème du football",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "cake-pops-blancs-or",
+    "category": "sales-evenements",
+    "name": "Gâteau blanc et cake pops à nœuds",
+    "description": "Gâteau blanc et cake pops.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/cake-pops-blancs-or.webp",
+        "alt": "Gâteau blanc aux copeaux et plateau doré de cake pops blancs à nœuds",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "table-sucree-fraisiers",
+    "category": "sales-evenements",
+    "name": "Table sucrée : fraisiers, cupcakes et cake pops",
+    "description": "Fraisiers, cupcakes et cake pops.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/table-sucree-fraisiers.webp",
+        "alt": "Table sucrée avec des fraisiers à la pistache, des cupcakes roses, des cake pops et deux gâteaux",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "cupcakes-ourson-rose",
+    "category": "sales-evenements",
+    "name": "Cupcakes et gâteau ourson rose",
+    "description": "Cupcakes et gâteau ourson.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/cupcakes-ourson-rose.webp",
+        "alt": "Plateau de cupcakes décorés d'oursons roses, avec un gâteau rose surmonté d'un ourson",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "tour-chocolats-dores",
+    "category": "sales-evenements",
+    "name": "Tour de douceurs dorées",
+    "description": "Douceurs enrobées et décors dorés.",
+    "featured": false,
+    "images": [
+      {
+        "src": "/images/sales-evenements/tour-chocolats-dores.webp",
+        "alt": "Pièce montée de douceurs enrobées aux décors dorés, surmontée d'une rose blanche et d'une aile dorée",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/images/sales-evenements/tour-chocolats-dores-2.webp",
+        "alt": "Autre vue de la pièce montée dorée, avec sa rose blanche et son aile dorée",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  padding: 16px 20px;
+  border-radius: var(--radius);
+  background: var(--surface-gradient);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.3s var(--ease), border-color 0.3s;
+}
+
+.item:hover,
+.item[open] {
+  border-color: var(--gold);
+  box-shadow: var(--shadow-hover);
+}
+
+.item summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.item p {
+  margin-top: 10px;
+}

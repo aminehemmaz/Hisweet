@@ -1,0 +1,33 @@
+.page {
+  max-width: 760px;
+  padding-bottom: 24px;
+}
+
+.head {
+  padding: 48px 0 24px;
+  text-align: center;
+}
+
+.head p {
+  margin-top: 12px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content h2 {
+  margin-top: 16px;
+  font-size: 1.4rem;
+}
+
+.content ul {
+  padding-left: 20px;
+}
+
+.content a:not(:global(.btn)) {
+  color: var(--color-main);
+  text-decoration: underline;
+}

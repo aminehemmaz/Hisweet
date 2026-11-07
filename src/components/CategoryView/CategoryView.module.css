@@ -1,0 +1,14 @@
+.head {
+  padding: 48px 0 24px;
+  text-align: center;
+}
+
+.head p {
+  max-width: 560px;
+  margin: 12px auto 0;
+}
+
+.empty {
+  padding: 32px 0;
+  text-align: center;
+}

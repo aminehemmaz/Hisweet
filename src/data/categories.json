@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "layer-cakes",
+    "name": "Layer cakes",
+    "description": "Des gâteaux étagés, décorés sur mesure."
+  },
+  {
+    "slug": "tartes",
+    "name": "Tartes & pièces montées",
+    "description": "Tartes, gâteaux plaques et pièces montées."
+  },
+  {
+    "slug": "sales-evenements",
+    "name": "Salés & événements",
+    "description": "Salés, cupcakes, cake pops et biscuits décorés."
+  }
+]
