@@ -26,10 +26,6 @@ Le site est en français et repose sur Next.js, React et TypeScript.
 
 <p align="center">
   <img src="docs/screenshots/layer-cakes.jpg" alt="Page catalogue des layer cakes" width="420">
-  <img src="docs/screenshots/savoury-events.jpg" alt="Page catalogue des salés et événements" width="420">
-</p>
-<p align="center">
-  <img src="docs/screenshots/quote-form.jpg" alt="Formulaire de demande de devis" width="420">
   <img src="docs/screenshots/home-mobile.jpg" alt="Page d'accueil sur mobile" width="200">
 </p>
 

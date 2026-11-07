@@ -26,10 +26,6 @@ The site is in French and is built with Next.js, React and TypeScript.
 
 <p align="center">
   <img src="docs/screenshots/layer-cakes.jpg" alt="Layer cakes catalogue page" width="420">
-  <img src="docs/screenshots/savoury-events.jpg" alt="Savoury and events catalogue page" width="420">
-</p>
-<p align="center">
-  <img src="docs/screenshots/quote-form.jpg" alt="Quote request form" width="420">
   <img src="docs/screenshots/home-mobile.jpg" alt="Home page on mobile" width="200">
 </p>
 
