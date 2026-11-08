@@ -93,6 +93,55 @@ public/images/      Logo and catalogue photos (WebP)
 docs/screenshots/   Images used in this README
 ```
 
+## How it is built
+
+The site is a single Next.js application: the front end and the small back end live in the same repository and are deployed together. There is no database; the catalogue is read from JSON files at build time, and quote requests are delivered by e-mail.
+
+### Front end
+
+- **Rendering**: every page is a React Server Component and is prerendered at build time. Client components are limited to what needs interactivity: the mobile menu (`Header`), the "show more" button (`ProductGrid`) and the quote form (`OrderForm`).
+- **Routing**: App Router. The three category pages are thin route files that share one `CategoryView` component, fed by the category slug.
+- **Styling**: one CSS Module per component, on top of global design tokens (colours, gradients, shadows, radii, easing) declared as CSS custom properties in `src/app/globals.css`. Fonts (Playfair Display, Inter) are self-hosted at build time with `next/font`.
+- **Images**: WebP files served through `next/image`. Cards share one fixed frame; the photo is displayed in full (`object-fit: contain`) over a blurred copy of itself, so nothing is cropped whatever the photo format.
+- **Animations**: CSS only. Scroll-driven animations (`animation-timeline: view()` and `scroll()`) are wrapped in `@supports`, so browsers without them simply show the content. The shooting-star banner uses container query units (`cqw`) to cross the block at any width. Everything is disabled under `prefers-reduced-motion`.
+- **Data and types**: the catalogue is typed with TypeScript interfaces (`src/types/product.ts`) and read through helpers in `src/lib/products.ts`.
+- **Quote form**: validation rules live in one shared module (`src/lib/order.ts`) used both in the browser and on the server. Reference photos are handled in the browser (`src/lib/photo.ts`): each one is drawn on a canvas, reduced to 1600 px, re-encoded as JPEG under 1.5 MB and sent as base64.
+- **SEO and accessibility**: metadata through the Next.js Metadata API, `sitemap.ts`, `robots.ts`, a generated Open Graph image, JSON-LD structured data, semantic landmarks, visible focus styles, labelled form fields with associated error messages, and descriptive `alt` text on every photo.
+
+### Back end
+
+The back end is a single Route Handler, `POST /api/commande` (`src/app/api/commande/route.ts`). For each request it:
+
+1. rejects oversized bodies (HTTP 413) and applies a per-IP rate limit of 5 requests per 10 minutes (HTTP 429);
+2. parses the JSON and silently drops submissions where the hidden honeypot field is filled in;
+3. validates the fields with the shared module and checks the order type against the list built from the catalogue (HTTP 422 with field-level messages);
+4. checks each photo: JPEG signature, 3 files at most, 1.5 MB each;
+5. escapes all user input and sends the notification through the Resend SDK, with the photos as attachments (HTTP 502 if delivery fails, 500 if the server is not configured).
+
+Secrets (`RESEND_API_KEY`, `ORDER_TO_EMAIL`) are read from server-side environment variables only. Nothing from a request is stored on the server. The rate limiter keeps its counters in memory, so on a serverless host the limit applies per instance.
+
+```mermaid
+sequenceDiagram
+    participant V as Visitor (browser)
+    participant A as /api/commande
+    participant R as Resend
+    V->>V: Validate the form, resize the photos
+    V->>A: POST JSON (fields + JPEG photos)
+    A->>A: Rate limit, honeypot, validation, photo checks
+    A->>R: Send the e-mail with attachments
+    R-->>A: Delivery result
+    A-->>V: 200 OK, or an error message
+```
+
+### Development approach
+
+1. **Content model**: define the categories and the shape of a catalogue entry, with no prices, so that adding a creation only means editing JSON.
+2. **Design system**: set the palette, typography, spacing and effects as CSS variables before building any page.
+3. **Pages and components**: build the layout (header, footer), the home page, the shared category view, then the static pages (about, FAQ, contact, legal).
+4. **Quote form and API**: write the shared validation first, then the form, then the Route Handler and the e-mail delivery.
+5. **SEO and legal**: metadata, sitemap, structured data, and legal pages driven by environment variables.
+6. **Checks**: type-check and lint on every change, production builds, Lighthouse audits on the main pages, and manual checks at phone and desktop widths.
+
 ## Managing the catalogue
 
 1. Put the photo in `public/images/<category>/`, preferably as WebP around 960 px wide.
